@@ -1,0 +1,14 @@
+# ── Required (out-of-the-box: TF-IDF retrieval + extractive answers) ──
+numpy
+scikit-learn
+
+# ── Optional: semantic embedding retrieval (better recall) ──
+# pip install sentence-transformers
+# then run with:  --backend semantic
+
+# ── Optional: read PDF documents ──
+# pip install pypdf
+
+# ── Optional: LLM-generated answers (set an API key, see README) ──
+# pip install anthropic        # then set ANTHROPIC_API_KEY
+# pip install openai           # then set OPENAI_API_KEY
